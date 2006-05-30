@@ -71,12 +71,12 @@
 			<Add directory="..\armagetronad\src\tools"/>
 			<Add directory="..\armagetronad\src\ui"/>
 			<Add directory="..\armagetronad\src\win32_ded"/>
-			<Add directory="..\armagetronad_winlibs\libxml2\include"/>
-			<Add directory="..\armagetronad_winlibs\iconv\include"/>
+			<Add directory="..\winlibs\libxml2\include"/>
+			<Add directory="..\winlibs\iconv\include"/>
 		</Compiler>
 		<Linker>
 			<Add library="libwsock32.a"/>
-			<Add library="..\armagetronad_winlibs\libxml2\lib\libxml2.lib"/>
+			<Add library="..\winlibs\libxml2\lib\libxml2.lib"/>
 		</Linker>
 		<Unit filename="..\armagetronad\src\engine\eAdvWall.cpp">
 			<Option compilerVar="CPP"/>
@@ -1428,7 +1428,7 @@
 		</Unit>
 		<Unit filename="armagetron.rc">
 			<Option compilerVar="WINDRES"/>
-			<Option objectName="armagetronad_build_codeblocks\armagetron.res"/>
+			<Option objectName="build_codeblocks\armagetron.res"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
 			<Option target="Dedicated - Win32 Profile"/>

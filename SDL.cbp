@@ -49,604 +49,604 @@
 			<Add option="-DENABLE_DIRECTX"/>
 			<Add option="-D_WIN32_WINNT=0x0400"/>
 			<Add directory="directx\include"/>
-			<Add directory="..\armagetronad_winlibs\SDL\src"/>
-			<Add directory="..\armagetronad_winlibs\SDL\src\audio"/>
-			<Add directory="..\armagetronad_winlibs\SDL\src\video"/>
-			<Add directory="..\armagetronad_winlibs\SDL\src\video\wincommon"/>
-			<Add directory="..\armagetronad_winlibs\SDL\src\video\windx5"/>
-			<Add directory="..\armagetronad_winlibs\SDL\src\events"/>
-			<Add directory="..\armagetronad_winlibs\SDL\src\joystick"/>
-			<Add directory="..\armagetronad_winlibs\SDL\src\cdrom"/>
-			<Add directory="..\armagetronad_winlibs\SDL\src\thread"/>
-			<Add directory="..\armagetronad_winlibs\SDL\src\thread\win32"/>
-			<Add directory="..\armagetronad_winlibs\SDL\src\timer"/>
-			<Add directory="..\armagetronad_winlibs\SDL\include"/>
-			<Add directory="..\armagetronad_winlibs\SDL\include\SDL"/>
+			<Add directory="..\winlibs\SDL\src"/>
+			<Add directory="..\winlibs\SDL\src\audio"/>
+			<Add directory="..\winlibs\SDL\src\video"/>
+			<Add directory="..\winlibs\SDL\src\video\wincommon"/>
+			<Add directory="..\winlibs\SDL\src\video\windx5"/>
+			<Add directory="..\winlibs\SDL\src\events"/>
+			<Add directory="..\winlibs\SDL\src\joystick"/>
+			<Add directory="..\winlibs\SDL\src\cdrom"/>
+			<Add directory="..\winlibs\SDL\src\thread"/>
+			<Add directory="..\winlibs\SDL\src\thread\win32"/>
+			<Add directory="..\winlibs\SDL\src\timer"/>
+			<Add directory="..\winlibs\SDL\include"/>
+			<Add directory="..\winlibs\SDL\include\SDL"/>
 		</Compiler>
 		<Linker>
 			<Add library="libdxguid.a"/>
 			<Add library="libgdi32.a"/>
 			<Add library="libwinmm.a"/>
 		</Linker>
-		<Unit filename="..\armagetronad_winlibs\SDL\VisualC\SDL\Version.rc">
+		<Unit filename="..\winlibs\SDL\VisualC\SDL\Version.rc">
 			<Option compilerVar="WINDRES"/>
-			<Option objectName="armagetronad_winlibs\SDL\VisualC\SDL\Version.res"/>
+			<Option objectName="winlibs\SDL\VisualC\SDL\Version.res"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\SDL.c">
+		<Unit filename="..\winlibs\SDL\src\SDL.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\SDL_error.c">
+		<Unit filename="..\winlibs\SDL\src\SDL_error.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\SDL_error_c.h">
+		<Unit filename="..\winlibs\SDL\src\SDL_error_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\SDL_fatal.c">
+		<Unit filename="..\winlibs\SDL\src\SDL_fatal.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\SDL_fatal.h">
+		<Unit filename="..\winlibs\SDL\src\SDL_fatal.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\SDL_loadso.c">
+		<Unit filename="..\winlibs\SDL\src\SDL_loadso.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\audio\SDL_audio.c">
+		<Unit filename="..\winlibs\SDL\src\audio\SDL_audio.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\audio\SDL_audio_c.h">
+		<Unit filename="..\winlibs\SDL\src\audio\SDL_audio_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\audio\SDL_audiocvt.c">
+		<Unit filename="..\winlibs\SDL\src\audio\SDL_audiocvt.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\audio\SDL_audiomem.c">
+		<Unit filename="..\winlibs\SDL\src\audio\SDL_audiomem.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\audio\SDL_audiomem.h">
+		<Unit filename="..\winlibs\SDL\src\audio\SDL_audiomem.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\audio\SDL_mixer.c">
+		<Unit filename="..\winlibs\SDL\src\audio\SDL_mixer.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\audio\SDL_mixer_MMX_VC.c">
+		<Unit filename="..\winlibs\SDL\src\audio\SDL_mixer_MMX_VC.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\audio\SDL_sysaudio.h">
+		<Unit filename="..\winlibs\SDL\src\audio\SDL_sysaudio.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\audio\SDL_wave.c">
+		<Unit filename="..\winlibs\SDL\src\audio\SDL_wave.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\audio\SDL_wave.h">
+		<Unit filename="..\winlibs\SDL\src\audio\SDL_wave.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\audio\windib\SDL_dibaudio.c">
+		<Unit filename="..\winlibs\SDL\src\audio\windib\SDL_dibaudio.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\audio\windib\SDL_dibaudio.h">
+		<Unit filename="..\winlibs\SDL\src\audio\windib\SDL_dibaudio.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\audio\windx5\SDL_dx5audio.c">
+		<Unit filename="..\winlibs\SDL\src\audio\windx5\SDL_dx5audio.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\audio\windx5\SDL_dx5audio.h">
+		<Unit filename="..\winlibs\SDL\src\audio\windx5\SDL_dx5audio.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\cdrom\SDL_cdrom.c">
+		<Unit filename="..\winlibs\SDL\src\cdrom\SDL_cdrom.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\cdrom\SDL_syscdrom.h">
+		<Unit filename="..\winlibs\SDL\src\cdrom\SDL_syscdrom.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\cdrom\win32\SDL_syscdrom.c">
+		<Unit filename="..\winlibs\SDL\src\cdrom\win32\SDL_syscdrom.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\cpuinfo\SDL_cpuinfo.c">
+		<Unit filename="..\winlibs\SDL\src\cpuinfo\SDL_cpuinfo.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\endian\SDL_endian.c">
+		<Unit filename="..\winlibs\SDL\src\endian\SDL_endian.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\events\SDL_active.c">
+		<Unit filename="..\winlibs\SDL\src\events\SDL_active.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\events\SDL_events.c">
+		<Unit filename="..\winlibs\SDL\src\events\SDL_events.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\events\SDL_events_c.h">
+		<Unit filename="..\winlibs\SDL\src\events\SDL_events_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\events\SDL_expose.c">
+		<Unit filename="..\winlibs\SDL\src\events\SDL_expose.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\events\SDL_keyboard.c">
+		<Unit filename="..\winlibs\SDL\src\events\SDL_keyboard.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\events\SDL_mouse.c">
+		<Unit filename="..\winlibs\SDL\src\events\SDL_mouse.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\events\SDL_quit.c">
+		<Unit filename="..\winlibs\SDL\src\events\SDL_quit.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\events\SDL_resize.c">
+		<Unit filename="..\winlibs\SDL\src\events\SDL_resize.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\events\SDL_sysevents.h">
+		<Unit filename="..\winlibs\SDL\src\events\SDL_sysevents.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\file\SDL_rwops.c">
+		<Unit filename="..\winlibs\SDL\src\file\SDL_rwops.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\joystick\SDL_joystick.c">
+		<Unit filename="..\winlibs\SDL\src\joystick\SDL_joystick.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\joystick\SDL_joystick_c.h">
+		<Unit filename="..\winlibs\SDL\src\joystick\SDL_joystick_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\joystick\SDL_sysjoystick.h">
+		<Unit filename="..\winlibs\SDL\src\joystick\SDL_sysjoystick.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\joystick\win32\SDL_mmjoystick.c">
+		<Unit filename="..\winlibs\SDL\src\joystick\win32\SDL_mmjoystick.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\thread\SDL_systhread.h">
+		<Unit filename="..\winlibs\SDL\src\thread\SDL_systhread.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\thread\SDL_thread.c">
+		<Unit filename="..\winlibs\SDL\src\thread\SDL_thread.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\thread\SDL_thread_c.h">
+		<Unit filename="..\winlibs\SDL\src\thread\SDL_thread_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\thread\generic\SDL_syscond.c">
+		<Unit filename="..\winlibs\SDL\src\thread\generic\SDL_syscond.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\thread\win32\SDL_sysmutex.c">
+		<Unit filename="..\winlibs\SDL\src\thread\win32\SDL_sysmutex.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\thread\win32\SDL_syssem.c">
+		<Unit filename="..\winlibs\SDL\src\thread\win32\SDL_syssem.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\thread\win32\SDL_systhread.c">
+		<Unit filename="..\winlibs\SDL\src\thread\win32\SDL_systhread.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\thread\win32\SDL_systhread_c.h">
+		<Unit filename="..\winlibs\SDL\src\thread\win32\SDL_systhread_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\timer\SDL_systimer.h">
+		<Unit filename="..\winlibs\SDL\src\timer\SDL_systimer.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\timer\SDL_timer.c">
+		<Unit filename="..\winlibs\SDL\src\timer\SDL_timer.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\timer\SDL_timer_c.h">
+		<Unit filename="..\winlibs\SDL\src\timer\SDL_timer_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\timer\win32\SDL_systimer.c">
+		<Unit filename="..\winlibs\SDL\src\timer\win32\SDL_systimer.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_RLEaccel.c">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_RLEaccel.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_RLEaccel_c.h">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_RLEaccel_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_blit.c">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_blit.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_blit.h">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_blit.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_blit_0.c">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_blit_0.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_blit_1.c">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_blit_1.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_blit_A.c">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_blit_A.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_blit_A.h">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_blit_A.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_blit_N.c">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_blit_N.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_bmp.c">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_bmp.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_cursor.c">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_cursor.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_cursor_c.h">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_cursor_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_gamma.c">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_gamma.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_leaks.h">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_leaks.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_pixels.c">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_pixels.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_pixels_c.h">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_pixels_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_stretch.c">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_stretch.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_stretch_c.h">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_stretch_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_surface.c">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_surface.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_sysvideo.h">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_sysvideo.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_video.c">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_video.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_yuv.c">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_yuv.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_yuv_sw.c">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_yuv_sw.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_yuv_sw_c.h">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_yuv_sw_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\SDL_yuvfuncs.h">
+		<Unit filename="..\winlibs\SDL\src\video\SDL_yuvfuncs.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\blank_cursor.h">
+		<Unit filename="..\winlibs\SDL\src\video\blank_cursor.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\default_cursor.h">
+		<Unit filename="..\winlibs\SDL\src\video\default_cursor.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\wincommon\SDL_lowvideo.h">
+		<Unit filename="..\winlibs\SDL\src\video\wincommon\SDL_lowvideo.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\wincommon\SDL_sysevents.c">
+		<Unit filename="..\winlibs\SDL\src\video\wincommon\SDL_sysevents.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\wincommon\SDL_sysmouse.c">
+		<Unit filename="..\winlibs\SDL\src\video\wincommon\SDL_sysmouse.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\wincommon\SDL_sysmouse_c.h">
+		<Unit filename="..\winlibs\SDL\src\video\wincommon\SDL_sysmouse_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\wincommon\SDL_syswm.c">
+		<Unit filename="..\winlibs\SDL\src\video\wincommon\SDL_syswm.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\wincommon\SDL_syswm_c.h">
+		<Unit filename="..\winlibs\SDL\src\video\wincommon\SDL_syswm_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\wincommon\SDL_wingl.c">
+		<Unit filename="..\winlibs\SDL\src\video\wincommon\SDL_wingl.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\wincommon\SDL_wingl_c.h">
+		<Unit filename="..\winlibs\SDL\src\video\wincommon\SDL_wingl_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\wincommon\wmmsg.h">
+		<Unit filename="..\winlibs\SDL\src\video\wincommon\wmmsg.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\windib\SDL_dibevents.c">
+		<Unit filename="..\winlibs\SDL\src\video\windib\SDL_dibevents.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\windib\SDL_dibevents_c.h">
+		<Unit filename="..\winlibs\SDL\src\video\windib\SDL_dibevents_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\windib\SDL_dibvideo.c">
+		<Unit filename="..\winlibs\SDL\src\video\windib\SDL_dibvideo.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\windib\SDL_dibvideo.h">
+		<Unit filename="..\winlibs\SDL\src\video\windib\SDL_dibvideo.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\windib\SDL_vkeys.h">
+		<Unit filename="..\winlibs\SDL\src\video\windib\SDL_vkeys.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\windx5\SDL_dx5events.c">
+		<Unit filename="..\winlibs\SDL\src\video\windx5\SDL_dx5events.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\windx5\SDL_dx5events_c.h">
+		<Unit filename="..\winlibs\SDL\src\video\windx5\SDL_dx5events_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\windx5\SDL_dx5video.c">
+		<Unit filename="..\winlibs\SDL\src\video\windx5\SDL_dx5video.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\windx5\SDL_dx5video.h">
+		<Unit filename="..\winlibs\SDL\src\video\windx5\SDL_dx5video.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\windx5\SDL_dx5yuv.c">
+		<Unit filename="..\winlibs\SDL\src\video\windx5\SDL_dx5yuv.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\windx5\SDL_dx5yuv_c.h">
+		<Unit filename="..\winlibs\SDL\src\video\windx5\SDL_dx5yuv_c.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\video\windx5\directx.h">
+		<Unit filename="..\winlibs\SDL\src\video\windx5\directx.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>

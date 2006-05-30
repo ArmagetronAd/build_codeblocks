@@ -62,107 +62,107 @@
 			<Add option="-DLOAD_TGA"/>
 			<Add option="-DPNG_USE_DLL"/>
 			<Add option="-DZLIB_DLL"/>
-			<Add directory="..\armagetronad_winlibs\SDL_image\VisualC\graphics\include"/>
-			<Add directory="..\armagetronad_winlibs\SDL\include"/>
+			<Add directory="..\winlibs\SDL_image\VisualC\graphics\include"/>
+			<Add directory="..\winlibs\SDL\include"/>
 		</Compiler>
 		<Linker>
-			<Add library="..\armagetronad_winlibs\SDL_image\VisualC\graphics\lib\jpeg.lib"/>
-			<Add library="..\armagetronad_winlibs\SDL_image\VisualC\graphics\lib\libpng13.lib"/>
-			<Add library="..\armagetronad_winlibs\SDL_image\VisualC\graphics\lib\zlib1.lib"/>
+			<Add library="..\winlibs\SDL_image\VisualC\graphics\lib\jpeg.lib"/>
+			<Add library="..\winlibs\SDL_image\VisualC\graphics\lib\libpng13.lib"/>
+			<Add library="..\winlibs\SDL_image\VisualC\graphics\lib\zlib1.lib"/>
 		</Linker>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\IMG.c">
+		<Unit filename="..\winlibs\SDL_image\IMG.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\IMG_bmp.c">
+		<Unit filename="..\winlibs\SDL_image\IMG_bmp.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\IMG_gif.c">
+		<Unit filename="..\winlibs\SDL_image\IMG_gif.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\IMG_jpg.c">
+		<Unit filename="..\winlibs\SDL_image\IMG_jpg.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\IMG_lbm.c">
+		<Unit filename="..\winlibs\SDL_image\IMG_lbm.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\IMG_pcx.c">
+		<Unit filename="..\winlibs\SDL_image\IMG_pcx.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\IMG_png.c">
+		<Unit filename="..\winlibs\SDL_image\IMG_png.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\IMG_pnm.c">
+		<Unit filename="..\winlibs\SDL_image\IMG_pnm.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\IMG_tga.c">
+		<Unit filename="..\winlibs\SDL_image\IMG_tga.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\IMG_tif.c">
+		<Unit filename="..\winlibs\SDL_image\IMG_tif.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\IMG_xcf.c">
+		<Unit filename="..\winlibs\SDL_image\IMG_xcf.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\IMG_xpm.c">
+		<Unit filename="..\winlibs\SDL_image\IMG_xpm.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\IMG_xxx.c">
+		<Unit filename="..\winlibs\SDL_image\IMG_xxx.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\SDL_image.h">
+		<Unit filename="..\winlibs\SDL_image\SDL_image.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\VisualC\Version.rc">
+		<Unit filename="..\winlibs\SDL_image\VisualC\Version.rc">
 			<Option compilerVar="WINDRES"/>
-			<Option objectName="armagetronad_winlibs\SDL_image\VisualC\Version.res"/>
+			<Option objectName="winlibs\SDL_image\VisualC\Version.res"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\VisualC\graphics\lib\jpeg.lib">
+		<Unit filename="..\winlibs\SDL_image\VisualC\graphics\lib\jpeg.lib">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\VisualC\graphics\lib\libpng13.lib">
+		<Unit filename="..\winlibs\SDL_image\VisualC\graphics\lib\libpng13.lib">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_image\VisualC\graphics\lib\zlib1.lib">
+		<Unit filename="..\winlibs\SDL_image\VisualC\graphics\lib\zlib1.lib">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>

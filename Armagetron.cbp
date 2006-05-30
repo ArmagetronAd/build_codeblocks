@@ -86,21 +86,21 @@
 			<Add directory="..\armagetronad\src\tools"/>
 			<Add directory="..\armagetronad\src\ui"/>
 			<Add directory="..\armagetronad\src\win32"/>
-			<Add directory="..\armagetronad_winlibs\include"/>
-			<Add directory="..\armagetronad_winlibs\SDL\include"/>
-			<Add directory="..\armagetronad_winlibs\SDL_image"/>
-			<Add directory="..\armagetronad_winlibs\SDL_image\VisualC\graphics\include"/>
-			<Add directory="..\armagetronad_winlibs\SDL_mixer"/>
-			<Add directory="..\armagetronad_winlibs\libxml2\include"/>
-			<Add directory="..\armagetronad_winlibs\iconv\include"/>
+			<Add directory="..\winlibs\include"/>
+			<Add directory="..\winlibs\SDL\include"/>
+			<Add directory="..\winlibs\SDL_image"/>
+			<Add directory="..\winlibs\SDL_image\VisualC\graphics\include"/>
+			<Add directory="..\winlibs\SDL_mixer"/>
+			<Add directory="..\winlibs\libxml2\include"/>
+			<Add directory="..\winlibs\iconv\include"/>
 		</Compiler>
 		<Linker>
 			<Add library="libopengl32.a"/>
 			<Add library="libglu32.a"/>
 			<Add library="libshell32.a"/>
 			<Add library="libwsock32.a"/>
-			<Add library="..\armagetronad_winlibs\SDL_image\VisualC\graphics\lib\libpng13.lib"/>
-			<Add library="..\armagetronad_winlibs\libxml2\lib\libxml2.lib"/>
+			<Add library="..\winlibs\SDL_image\VisualC\graphics\lib\libpng13.lib"/>
+			<Add library="..\winlibs\libxml2\lib\libxml2.lib"/>
 		</Linker>
 		<Unit filename="..\CHANGELOG">
 			<Option compilerVar=""/>
@@ -1474,15 +1474,15 @@
 			<Option target="Armagetron - Win32 Debug"/>
 			<Option target="Armagetron - Win32 Profile"/>
 		</Unit>
-		<Unit filename="armagetron.rc">
-			<Option compilerVar="WINDRES"/>
-			<Option objectName="armagetronad_build_codeblocks\armagetron.res"/>
+		<Unit filename="..\armagetronad_winlibs\SDL\src\main\win32\SDL_main.c">
+			<Option compilerVar="CC"/>
 			<Option target="Armagetron - Win32 Release"/>
 			<Option target="Armagetron - Win32 Debug"/>
 			<Option target="Armagetron - Win32 Profile"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL\src\main\win32\SDL_main.c">
-			<Option compilerVar="CC"/>
+		<Unit filename="armagetron.rc">
+			<Option compilerVar="WINDRES"/>
+			<Option objectName="build_codeblocks\armagetron.res"/>
 			<Option target="Armagetron - Win32 Release"/>
 			<Option target="Armagetron - Win32 Debug"/>
 			<Option target="Armagetron - Win32 Profile"/>

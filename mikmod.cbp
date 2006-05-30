@@ -44,135 +44,135 @@
 			<Add option="-fexceptions"/>
 			<Add option="-DWIN32"/>
 			<Add option="-D_WINDOWS"/>
-			<Add directory="..\armagetronad_winlibs\SDL_mixer\mikmod"/>
+			<Add directory="..\winlibs\SDL_mixer\mikmod"/>
 		</Compiler>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\drv_nos.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\drv_nos.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\drv_sdl.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\drv_sdl.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\load_it.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\load_it.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\load_mod.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\load_mod.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\load_s3m.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\load_s3m.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\load_xm.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\load_xm.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\mdreg.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\mdreg.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\mdriver.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\mdriver.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\mikmod.h">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\mikmod.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\mikmod_build.h">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\mikmod_build.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\mikmod_internals.h">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\mikmod_internals.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\mloader.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\mloader.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\mlreg.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\mlreg.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\mlutil.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\mlutil.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\mmalloc.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\mmalloc.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\mmerror.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\mmerror.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\mmio.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\mmio.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\mplayer.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\mplayer.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\munitrk.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\munitrk.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\mwav.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\mwav.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\npertab.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\npertab.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\sloader.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\sloader.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\virtch.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\virtch.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\virtch2.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\virtch2.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad_winlibs\SDL_mixer\mikmod\virtch_common.c">
+		<Unit filename="..\winlibs\SDL_mixer\mikmod\virtch_common.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
