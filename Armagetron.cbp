@@ -22,7 +22,6 @@
 					<Add option="-W"/>
 					<Add option="-DNDEBUG"/>
 					<Add option="-DDIRTY"/>
-					<Add option="-DDONTUSEMEMMANAGER"/>
 				</Compiler>
 				<Linker>
 					<Add option="-s"/>
@@ -65,7 +64,6 @@
 					<Add option="-W"/>
 					<Add option="-g"/>
 					<Add option="-DDIRTY"/>
-					<Add option="-DDONTUSEMEMMANAGER"/>
 				</Compiler>
 				<Linker>
 					<Add library="..\profile\libSDL.a"/>
@@ -79,6 +77,7 @@
 			<Add option="-DWIN32"/>
 			<Add option="-D_WINDOWS"/>
 			<Add option="-D_MBCS"/>
+			<Add option="-DDONTUSEMEMMANAGER"/>
 			<Add directory="..\armagetronad\src"/>
 			<Add directory="..\armagetronad\src\engine"/>
 			<Add directory="..\armagetronad\src\network"/>
@@ -833,6 +832,7 @@
 			<Option target="Armagetron - Win32 Release"/>
 			<Option target="Armagetron - Win32 Debug"/>
 			<Option target="Armagetron - Win32 Profile"/>
+			<Breakpoint line="45" enabled="1" pass="0" />
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tError.h">
 			<Option compilerVar=""/>
@@ -1283,6 +1283,7 @@
 			<Option target="Armagetron - Win32 Release"/>
 			<Option target="Armagetron - Win32 Debug"/>
 			<Option target="Armagetron - Win32 Profile"/>
+			<Breakpoint line="74" enabled="1" pass="0" />
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gParser.h">
 			<Option compilerVar=""/>
