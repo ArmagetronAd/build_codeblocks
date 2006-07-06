@@ -218,6 +218,20 @@
 			<Option target="Dedicated - Win32 Debug"/>
 			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
+		<Unit filename="..\armagetronad\src\engine\eLagCompensation.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Dedicated - Win32 Release"/>
+			<Option target="Dedicated - Win32 Debug"/>
+			<Option target="Dedicated - Win32 Profile"/>
+		</Unit>
+		<Unit filename="..\armagetronad\src\engine\eLagCompensation.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Dedicated - Win32 Release"/>
+			<Option target="Dedicated - Win32 Debug"/>
+			<Option target="Dedicated - Win32 Profile"/>
+		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eNetGameObject.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
