@@ -3,7 +3,7 @@ REM This batch file can be used to build the target directories "dist" and "debu
 REM and debug binaries will be compiled to.
 
 SET AA_DIR=..\armagetronad
-SET LIBS_DIR=..\armagetronad_winlibs
+SET LIBS_DIR=..\winlibs
 SET DIST_DIR=..\dist
 SET DEBUG_DIR=..\debug
 
