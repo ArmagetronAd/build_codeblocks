@@ -7,7 +7,7 @@
 		<Project filename="SDL.cbp"/>
 		<Project filename="SDL_image.cbp"/>
 		<Project filename="mikmod.cbp"/>
-		<Project filename="SDL_mixer.cbp"/>
-		<Project filename="Armagetron.cbp" active="1"/>
+		<Project filename="SDL_mixer.cbp" active="1"/>
+		<Project filename="Armagetron.cbp"/>
 	</Workspace>
 </CodeBlocks_workspace_file>

@@ -6,7 +6,6 @@
 		<Option title="Dedicated"/>
 		<Option makefile="Makefile"/>
 		<Option makefile_is_custom="0"/>
-		<Option active_target="0"/>
 		<Option compiler="0"/>
 		<Build>
 			<Target title="Dedicated - Win32 Release">
@@ -41,22 +40,6 @@
 					<Add option="-DDEBUG"/>
 				</Compiler>
 			</Target>
-			<Target title="Dedicated - Win32 Profile">
-				<Option output="..\profile\armagetronad_dedicated.exe"/>
-				<Option working_dir="."/>
-				<Option object_output="tmp\Armagetron_Dedicated___Win32_Profile"/>
-				<Option deps_output=".deps"/>
-				<Option type="1"/>
-				<Option compiler="0"/>
-				<Option projectResourceIncludeDirsRelation="1"/>
-				<Compiler>
-					<Add option="-O2"/>
-					<Add option="-W"/>
-					<Add option="-g"/>
-					<Add option="-DNDEBUG"/>
-					<Add option="-DDEBUG"/>
-				</Compiler>
-			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-fexceptions"/>
@@ -82,7 +65,6 @@
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eAdvWall.h">
 			<Option compilerVar=""/>
@@ -90,13 +72,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eAuthentification.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eAuthentification.h">
 			<Option compilerVar=""/>
@@ -104,13 +84,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eAxis.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eAxis.h">
 			<Option compilerVar=""/>
@@ -118,13 +96,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eCamera.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eCamera.h">
 			<Option compilerVar=""/>
@@ -132,7 +108,6 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eCoord.h">
 			<Option compilerVar=""/>
@@ -140,13 +115,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eDebugLine.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eDebugLine.h">
 			<Option compilerVar=""/>
@@ -154,19 +127,16 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eDisplay.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eFloor.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eFloor.h">
 			<Option compilerVar=""/>
@@ -174,13 +144,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eGameObject.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eGameObject.h">
 			<Option compilerVar=""/>
@@ -188,13 +156,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eGrid.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eGrid.h">
 			<Option compilerVar=""/>
@@ -202,13 +168,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eKrawall.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eKrawall.h">
 			<Option compilerVar=""/>
@@ -216,13 +180,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eLagCompensation.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eLagCompensation.h">
 			<Option compilerVar=""/>
@@ -230,13 +192,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eNetGameObject.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eNetGameObject.h">
 			<Option compilerVar=""/>
@@ -244,13 +204,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\ePath.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\ePath.h">
 			<Option compilerVar=""/>
@@ -258,13 +216,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\ePlayer.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\ePlayer.h">
 			<Option compilerVar=""/>
@@ -272,13 +228,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eRectangle.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eRectangle.h">
 			<Option compilerVar=""/>
@@ -286,13 +240,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eSensor.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eSensor.h">
 			<Option compilerVar=""/>
@@ -300,13 +252,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eSound.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eSound.h">
 			<Option compilerVar=""/>
@@ -314,13 +264,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eTeam.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eTeam.h">
 			<Option compilerVar=""/>
@@ -328,7 +276,6 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eTess2.h">
 			<Option compilerVar=""/>
@@ -336,13 +283,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eTimer.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eTimer.h">
 			<Option compilerVar=""/>
@@ -350,13 +295,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eVoter.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eVoter.h">
 			<Option compilerVar=""/>
@@ -364,13 +307,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eWall.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eWall.h">
 			<Option compilerVar=""/>
@@ -378,13 +319,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\md5.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\md5.h">
 			<Option compilerVar=""/>
@@ -392,13 +331,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nAuthentification.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nAuthentification.h">
 			<Option compilerVar=""/>
@@ -406,13 +343,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nConfig.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nConfig.h">
 			<Option compilerVar=""/>
@@ -420,13 +355,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nKrawall.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nKrawall.h">
 			<Option compilerVar=""/>
@@ -434,19 +367,16 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nKrawallPrivate.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nNetObject.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nNetObject.h">
 			<Option compilerVar=""/>
@@ -454,13 +384,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nNetwork.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nNetwork.h">
 			<Option compilerVar=""/>
@@ -468,13 +396,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nObserver.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nObserver.h">
 			<Option compilerVar=""/>
@@ -482,13 +408,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nPriorizing.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nPriorizing.h">
 			<Option compilerVar=""/>
@@ -496,13 +420,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nServerInfo.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nServerInfo.h">
 			<Option compilerVar=""/>
@@ -510,7 +432,6 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nSimulatePing.h">
 			<Option compilerVar=""/>
@@ -518,13 +439,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nSocket.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nSocket.h">
 			<Option compilerVar=""/>
@@ -532,13 +451,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nSpamProtection.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\network\nSpamProtection.h">
 			<Option compilerVar=""/>
@@ -546,13 +463,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rConsole.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rConsole.h">
 			<Option compilerVar=""/>
@@ -560,19 +475,16 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rConsoleCout.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rFont.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rFont.h">
 			<Option compilerVar=""/>
@@ -580,7 +492,6 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rGL.h">
 			<Option compilerVar=""/>
@@ -588,19 +499,16 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rGLRender.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rModel.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rModel.h">
 			<Option compilerVar=""/>
@@ -608,13 +516,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rRender.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rRender.h">
 			<Option compilerVar=""/>
@@ -622,7 +528,6 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rSDL.h">
 			<Option compilerVar=""/>
@@ -630,13 +535,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rScreen.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rScreen.h">
 			<Option compilerVar=""/>
@@ -644,13 +547,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rSysdep.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rSysdep.h">
 			<Option compilerVar=""/>
@@ -658,13 +559,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rTexture.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rTexture.h">
 			<Option compilerVar=""/>
@@ -672,13 +571,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rViewport.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\render\rViewport.h">
 			<Option compilerVar=""/>
@@ -686,13 +583,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tArray.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tArray.h">
 			<Option compilerVar=""/>
@@ -700,13 +595,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tCallback.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tCallback.h">
 			<Option compilerVar=""/>
@@ -714,7 +607,6 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tCallbackString.h">
 			<Option compilerVar=""/>
@@ -722,13 +614,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tCommandLine.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tCommandLine.h">
 			<Option compilerVar=""/>
@@ -736,13 +626,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tConfiguration.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tConfiguration.h">
 			<Option compilerVar=""/>
@@ -750,13 +638,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tConsole.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tConsole.h">
 			<Option compilerVar=""/>
@@ -764,13 +650,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tCrypt.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tCrypt.h">
 			<Option compilerVar=""/>
@@ -778,13 +662,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tDirectories.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tDirectories.h">
 			<Option compilerVar=""/>
@@ -792,13 +674,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tError.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tError.h">
 			<Option compilerVar=""/>
@@ -806,13 +686,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tEventQueue.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tEventQueue.h">
 			<Option compilerVar=""/>
@@ -820,13 +698,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tException.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tException.h">
 			<Option compilerVar=""/>
@@ -834,13 +710,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tHeap.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tHeap.h">
 			<Option compilerVar=""/>
@@ -848,7 +722,6 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tInitExit.h">
 			<Option compilerVar=""/>
@@ -856,13 +729,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tLinkedList.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tLinkedList.h">
 			<Option compilerVar=""/>
@@ -870,7 +741,6 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tList.h">
 			<Option compilerVar=""/>
@@ -878,13 +748,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tLocale.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tLocale.h">
 			<Option compilerVar=""/>
@@ -892,7 +760,6 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tMath.h">
 			<Option compilerVar=""/>
@@ -900,13 +767,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tMemManager.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tMemManager.h">
 			<Option compilerVar=""/>
@@ -914,13 +779,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tMemStack.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tMemStack.h">
 			<Option compilerVar=""/>
@@ -928,13 +791,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tRandom.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tRandom.h">
 			<Option compilerVar=""/>
@@ -942,13 +803,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tRecorder.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tRecorder.h">
 			<Option compilerVar=""/>
@@ -956,13 +815,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tRecorderInternal.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tRecorderInternal.h">
 			<Option compilerVar=""/>
@@ -970,7 +827,6 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tReferenceHolder.h">
 			<Option compilerVar=""/>
@@ -978,13 +834,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tResourceManager.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tResourceManager.h">
 			<Option compilerVar=""/>
@@ -992,13 +846,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tRing.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tRing.h">
 			<Option compilerVar=""/>
@@ -1006,13 +858,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tSafePTR.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tSafePTR.h">
 			<Option compilerVar=""/>
@@ -1020,13 +870,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tString.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tString.h">
 			<Option compilerVar=""/>
@@ -1034,13 +882,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tSysTime.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tSysTime.h">
 			<Option compilerVar=""/>
@@ -1048,13 +894,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tToDo.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tToDo.h">
 			<Option compilerVar=""/>
@@ -1062,13 +906,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gAIBase.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gAIBase.h">
 			<Option compilerVar=""/>
@@ -1076,13 +918,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gAICharacter.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gAICharacter.h">
 			<Option compilerVar=""/>
@@ -1090,13 +930,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gArena.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gArena.h">
 			<Option compilerVar=""/>
@@ -1104,19 +942,16 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gArmagetron.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gCamera.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gCamera.h">
 			<Option compilerVar=""/>
@@ -1124,13 +959,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gCycle.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gCycle.h">
 			<Option compilerVar=""/>
@@ -1138,13 +971,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gCycleMovement.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gCycleMovement.h">
 			<Option compilerVar=""/>
@@ -1152,13 +983,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gExplosion.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gExplosion.h">
 			<Option compilerVar=""/>
@@ -1166,19 +995,16 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gFloor.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gGame.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gGame.h">
 			<Option compilerVar=""/>
@@ -1186,13 +1012,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gHud.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gHud.h">
 			<Option compilerVar=""/>
@@ -1206,7 +1030,6 @@
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gLanguageMenu.h">
 			<Option compilerVar=""/>
@@ -1214,13 +1037,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gLogo.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gLogo.h">
 			<Option compilerVar=""/>
@@ -1228,13 +1049,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gMenus.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gMenus.h">
 			<Option compilerVar=""/>
@@ -1242,19 +1061,16 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gParser.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gSensor.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gSensor.h">
 			<Option compilerVar=""/>
@@ -1262,13 +1078,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gServerBrowser.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gServerBrowser.h">
 			<Option compilerVar=""/>
@@ -1276,13 +1090,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gServerFavorites.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gServerFavorites.h">
 			<Option compilerVar=""/>
@@ -1290,13 +1102,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gSparks.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gSparks.h">
 			<Option compilerVar=""/>
@@ -1304,13 +1114,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gSpawn.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gSpawn.h">
 			<Option compilerVar=""/>
@@ -1318,13 +1126,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gStuff.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gStuff.h">
 			<Option compilerVar=""/>
@@ -1332,13 +1138,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gTeam.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gTeam.h">
 			<Option compilerVar=""/>
@@ -1346,13 +1150,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gWall.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gWall.h">
 			<Option compilerVar=""/>
@@ -1360,13 +1162,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gWinZone.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gWinZone.h">
 			<Option compilerVar=""/>
@@ -1374,13 +1174,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\ui\uInput.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\ui\uInput.h">
 			<Option compilerVar=""/>
@@ -1388,13 +1186,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\ui\uInputQueue.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\ui\uInputQueue.h">
 			<Option compilerVar=""/>
@@ -1402,13 +1198,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\ui\uMenu.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\ui\uMenu.h">
 			<Option compilerVar=""/>
@@ -1416,7 +1210,6 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\win32_ded\config.h">
 			<Option compilerVar=""/>
@@ -1424,13 +1217,11 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\win32_ded\dirent.c">
 			<Option compilerVar="CC"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="..\armagetronad\src\win32_ded\dirent.h">
 			<Option compilerVar=""/>
@@ -1438,14 +1229,12 @@
 			<Option link="0"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 		<Unit filename="armagetron.rc">
 			<Option compilerVar="WINDRES"/>
 			<Option objectName="build_codeblocks\armagetron.res"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
-			<Option target="Dedicated - Win32 Profile"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
