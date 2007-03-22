@@ -29,10 +29,21 @@ for everyone else.
 5.  It should look something like this:
     +- Armagetron Advanced
        +- armagetronad
-       +- armagetronad_build_codeblocks
-       +- armagetronad_winlibs
-6.  Go to the armagetronad_build_codeblocks directory
-7.  Run the makedist.bat file to build the 'dist' and 'debug' directories
+       +- build_codeblocks
+       +- winlibs
+6.  Go to the build_codeblocks directory
+7.  IMPORTANT !!! Before compiling you need to run these commands:
+
+    0) START->Run enter "cmd" press "OK"
+    1) cd [..PATH TO PROJECT FOLDER]\armagetronad\resources
+    2) At prompt [..]\armagetronad\resources> enter:
+
+       python.exe ..\batch\make\sortresources.py
+
+       Make sure you see the above prompt! Sortresouces.py will only work
+       if called from [..]\armagetronad\resources. 
+
+    3) run makedist.bat (from build_codeblocks) folder
 8.  Start the Armagetron Advanced workspace (Armagetron.workspace)
 9.  To compile you will need to change the active project and build target 
     (it defaults to Armagetron Advanced Client and Win32 Release build target)
