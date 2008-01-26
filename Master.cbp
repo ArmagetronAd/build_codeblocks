@@ -53,9 +53,11 @@
 			<Add directory="..\armagetronad\src\tools"/>
 			<Add directory="..\armagetronad\src\ui"/>
 			<Add directory="..\armagetronad\src\win32_ded"/>
+			<Add directory="..\winlibs\libxml2\include"/>
 		</Compiler>
 		<Linker>
 			<Add library="libwsock32.a"/>
+			<Add library="..\winlibs\libxml2\lib\libxml2.lib"/>
 		</Linker>
 		<Unit filename="..\armagetronad\src\network\master.cpp">
 			<Option compilerVar="CPP"/>
