@@ -1001,6 +1001,18 @@
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
 		</Unit>
+		<Unit filename="..\armagetronad\src\tron\gFriends.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Dedicated - Win32 Release"/>
+			<Option target="Dedicated - Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\armagetronad\src\tron\gFriends.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Dedicated - Win32 Release"/>
+			<Option target="Dedicated - Win32 Debug"/>
+		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gGame.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>

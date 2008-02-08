@@ -1040,6 +1040,18 @@
 			<Option target="Armagetron - Win32 Release"/>
 			<Option target="Armagetron - Win32 Debug"/>
 		</Unit>
+		<Unit filename="..\armagetronad\src\tron\gFriends.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Armagetron - Win32 Release"/>
+			<Option target="Armagetron - Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\armagetronad\src\tron\gFriends.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Armagetron - Win32 Release"/>
+			<Option target="Armagetron - Win32 Debug"/>
+		</Unit>
 		<Unit filename="..\armagetronad\src\tron\gGame.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Armagetron - Win32 Release"/>
@@ -1316,7 +1328,7 @@
 			<Option target="Armagetron - Win32 Release"/>
 			<Option target="Armagetron - Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\winlibs\SDL\src\main\win32\SDL_main.c">
+		<Unit filename="..\winlibs\sdl\src\main\win32\SDL_main.c">
 			<Option compilerVar="CC"/>
 			<Option target="Armagetron - Win32 Release"/>
 			<Option target="Armagetron - Win32 Debug"/>
