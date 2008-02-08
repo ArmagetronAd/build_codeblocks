@@ -76,12 +76,12 @@
 			<Option target="Master - Win32 Release"/>
 			<Option target="Master - Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad\src\network\nAuthentification.cpp">
+		<Unit filename="..\armagetronad\src\network\nAuthentication.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Master - Win32 Release"/>
 			<Option target="Master - Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\armagetronad\src\network\nAuthentification.h">
+		<Unit filename="..\armagetronad\src\network\nAuthentication.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>

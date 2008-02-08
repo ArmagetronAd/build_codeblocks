@@ -62,11 +62,11 @@
 			<Option link="0"/>
 			<Option target="Release"/>
 		</Unit>
-		<Unit filename="..\armagetronad\src\engine\eAuthentification.cpp">
+		<Unit filename="..\armagetronad\src\engine\eAuthentication.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Release"/>
 		</Unit>
-		<Unit filename="..\armagetronad\src\engine\eAuthentification.h">
+		<Unit filename="..\armagetronad\src\engine\eAuthentication.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
@@ -258,11 +258,11 @@
 			<Option link="0"/>
 			<Option target="Release"/>
 		</Unit>
-		<Unit filename="..\armagetronad\src\network\nAuthentification.cpp">
+		<Unit filename="..\armagetronad\src\network\nAuthentication.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Release"/>
 		</Unit>
-		<Unit filename="..\armagetronad\src\network\nAuthentification.h">
+		<Unit filename="..\armagetronad\src\network\nAuthentication.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
