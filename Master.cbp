@@ -23,6 +23,7 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s"/>
+					<Add library=".\libZThread.a"/>
 				</Linker>
 			</Target>
 			<Target title="Master - Win32 Debug">
@@ -39,6 +40,9 @@
 					<Add option="-D_DEBUG"/>
 					<Add option="-DDEBUG"/>
 				</Compiler>
+				<Linker>
+					<Add library=".\libZThread_debug.a"/>
+				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
@@ -54,6 +58,7 @@
 			<Add directory="..\armagetronad\src\ui"/>
 			<Add directory="..\armagetronad\src\win32_ded"/>
 			<Add directory="..\winlibs\libxml2\include"/>
+			<Add directory="..\winlibs\ZThread\include"/>
 		</Compiler>
 		<Linker>
 			<Add library="libwsock32.a"/>
