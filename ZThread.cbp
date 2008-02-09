@@ -25,7 +25,7 @@
 				</Linker>
 			</Target>
 			<Target title="debug">
-				<Option output="D:\Development\AADevel\workspaces\liquid\build_codeblocks\libZThread_debug.a"/>
+				<Option output=".\libZThread_debug.a"/>
 				<Option working_dir=""/>
 				<Option object_output=".objs"/>
 				<Option deps_output=".deps"/>
