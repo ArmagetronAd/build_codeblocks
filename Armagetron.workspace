@@ -2,6 +2,7 @@
 <!DOCTYPE CodeBlocks_workspace_file>
 <CodeBlocks_workspace_file>
 	<Workspace title="Armagetron workspace">
+		<Project filename="ZThread.cbp"/>
 		<Project filename="Dedicated.cbp" active="1"/>
 		<Project filename="Master.cbp"/>
 		<Project filename="SDL.cbp"/>
