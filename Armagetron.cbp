@@ -520,6 +520,18 @@
 			<Option target="Armagetron - Win32 Release"/>
 			<Option target="Armagetron - Win32 Debug"/>
 		</Unit>
+		<Unit filename="..\armagetronad\src\render\rDisplayList.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Armagetron - Win32 Release"/>
+			<Option target="Armagetron - Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\armagetronad\src\render\rDisplayList.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Armagetron - Win32 Release"/>
+			<Option target="Armagetron - Win32 Debug"/>
+		</Unit>
 		<Unit filename="..\armagetronad\src\render\rFont.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Armagetron - Win32 Release"/>
@@ -529,6 +541,11 @@
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
+			<Option target="Armagetron - Win32 Release"/>
+			<Option target="Armagetron - Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\armagetronad\src\render\rGL.cpp">
+			<Option compilerVar="CPP"/>
 			<Option target="Armagetron - Win32 Release"/>
 			<Option target="Armagetron - Win32 Debug"/>
 		</Unit>

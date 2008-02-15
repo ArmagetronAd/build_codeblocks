@@ -6,7 +6,7 @@
 		<Option title="Dedicated"/>
 		<Option makefile="Makefile"/>
 		<Option makefile_is_custom="0"/>
-		<Option active_target="0"/>
+		<Option active_target="1"/>
 		<Option compiler="0"/>
 		<Build>
 			<Target title="Dedicated - Win32 Release">
@@ -487,6 +487,18 @@
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
 		</Unit>
+		<Unit filename="..\armagetronad\src\render\rDisplayList.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Dedicated - Win32 Release"/>
+			<Option target="Dedicated - Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\armagetronad\src\render\rDisplayList.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Dedicated - Win32 Release"/>
+			<Option target="Dedicated - Win32 Debug"/>
+		</Unit>
 		<Unit filename="..\armagetronad\src\render\rFont.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
@@ -496,6 +508,11 @@
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
+			<Option target="Dedicated - Win32 Release"/>
+			<Option target="Dedicated - Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\armagetronad\src\render\rGL.cpp">
+			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
 		</Unit>
