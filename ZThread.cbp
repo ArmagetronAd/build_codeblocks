@@ -9,7 +9,7 @@
 		<Option compiler="0"/>
 		<Build>
 			<Target title="release">
-				<Option output="D:\Development\AADevel\workspaces\liquid\build_codeblocks\libZThread.a"/>
+				<Option output=".\libZThread.a"/>
 				<Option working_dir=""/>
 				<Option object_output=".objs_release"/>
 				<Option deps_output=".deps_release"/>
