@@ -6,7 +6,6 @@
 		<Option title="Dedicated"/>
 		<Option makefile="Makefile"/>
 		<Option makefile_is_custom="0"/>
-		<Option active_target="1"/>
 		<Option compiler="0"/>
 		<Build>
 			<Target title="Dedicated - Win32 Release">
