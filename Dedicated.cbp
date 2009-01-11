@@ -638,6 +638,18 @@
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
 		</Unit>
+		<Unit filename="..\armagetronad\src\tools\tColor.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Dedicated - Win32 Release"/>
+			<Option target="Dedicated - Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\armagetronad\src\tools\tColor.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Dedicated - Win32 Release"/>
+			<Option target="Dedicated - Win32 Debug"/>
+		</Unit>
 		<Unit filename="..\armagetronad\src\tools\tCommandLine.cpp">
 			<Option compilerVar="CPP"/>
 			<Option target="Dedicated - Win32 Release"/>
