@@ -114,6 +114,18 @@
 			<Option target="Dedicated - Win32 Release"/>
 			<Option target="Dedicated - Win32 Debug"/>
 		</Unit>
+		<Unit filename="..\armagetronad\src\engine\eChat.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="Dedicated - Win32 Release"/>
+			<Option target="Dedicated - Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\armagetronad\src\engine\eChat.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Dedicated - Win32 Release"/>
+			<Option target="Dedicated - Win32 Debug"/>
+		</Unit>
 		<Unit filename="..\armagetronad\src\engine\eCoord.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
