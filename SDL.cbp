@@ -102,11 +102,6 @@
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
-		<Unit filename="..\winlibs\SDL\src\SDL_loadso.c">
-			<Option compilerVar="CC"/>
-			<Option target="Win32 Release"/>
-			<Option target="Win32 Debug"/>
-		</Unit>
 		<Unit filename="..\winlibs\SDL\src\audio\SDL_audio.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
@@ -120,11 +115,6 @@
 			<Option target="Win32 Debug"/>
 		</Unit>
 		<Unit filename="..\winlibs\SDL\src\audio\SDL_audiocvt.c">
-			<Option compilerVar="CC"/>
-			<Option target="Win32 Release"/>
-			<Option target="Win32 Debug"/>
-		</Unit>
-		<Unit filename="..\winlibs\SDL\src\audio\SDL_audiomem.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
@@ -159,6 +149,30 @@
 			<Option target="Win32 Debug"/>
 		</Unit>
 		<Unit filename="..\winlibs\SDL\src\audio\SDL_wave.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\audio\disk\SDL_diskaudio.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\audio\disk\SDL_diskaudio.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\audio\dummy\SDL_dummyaudio.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\audio\dummy\SDL_dummyaudio.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
@@ -207,11 +221,6 @@
 			<Option target="Win32 Debug"/>
 		</Unit>
 		<Unit filename="..\winlibs\SDL\src\cpuinfo\SDL_cpuinfo.c">
-			<Option compilerVar="CC"/>
-			<Option target="Win32 Release"/>
-			<Option target="Win32 Debug"/>
-		</Unit>
-		<Unit filename="..\winlibs\SDL\src\endian\SDL_endian.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
@@ -290,6 +299,41 @@
 			<Option target="Win32 Debug"/>
 		</Unit>
 		<Unit filename="..\winlibs\SDL\src\joystick\win32\SDL_mmjoystick.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\loadso\win32\SDL_sysloadso.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\stdlib\SDL_getenv.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\stdlib\SDL_iconv.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\stdlib\SDL_malloc.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\stdlib\SDL_qsort.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\stdlib\SDL_stdlib.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\stdlib\SDL_string.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
@@ -490,6 +534,11 @@
 			<Option target="Win32 Release"/>
 			<Option target="Win32 Debug"/>
 		</Unit>
+		<Unit filename="..\winlibs\SDL\src\video\SDL_yuv_mmx.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
 		<Unit filename="..\winlibs\SDL\src\video\SDL_yuv_sw.c">
 			<Option compilerVar="CC"/>
 			<Option target="Win32 Release"/>
@@ -517,6 +566,42 @@
 			<Option target="Win32 Debug"/>
 		</Unit>
 		<Unit filename="..\winlibs\SDL\src\video\default_cursor.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\video\dummy\SDL_nullevents.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\video\dummy\SDL_nullevents_c.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\video\dummy\SDL_nullmouse.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\video\dummy\SDL_nullmouse_c.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\video\dummy\SDL_nullvideo.c">
+			<Option compilerVar="CC"/>
+			<Option target="Win32 Release"/>
+			<Option target="Win32 Debug"/>
+		</Unit>
+		<Unit filename="..\winlibs\SDL\src\video\dummy\SDL_nullvideo.h">
 			<Option compilerVar=""/>
 			<Option compile="0"/>
 			<Option link="0"/>
