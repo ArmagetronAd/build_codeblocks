@@ -2,12 +2,12 @@
 REM This batch file can be used to build the target directories "dist" and "debug" one layer
 REM up from here where the release and debug binaries will be compiled to.
 
-SET AA_DIR="..\armagetronad"
-SET LIBS_DIR="..\winlibs"
-SET DIST_DIR_BASE="dist"
-SET DEBUG_DIR_BASE="debug"
-SET DIST_DIR="..\%DIST_DIR_BASE%"
-SET DEBUG_DIR="..\%DEBUG_DIR_BASE%"
+SET AA_DIR=..\armagetronad
+SET LIBS_DIR=..\winlibs
+SET DIST_DIR_BASE=dist
+SET DEBUG_DIR_BASE=debug
+SET DIST_DIR=..\%DIST_DIR_BASE%
+SET DEBUG_DIR=..\%DEBUG_DIR_BASE%
 
 echo making directory...
 REM del %DIST_DIR% /S /Q
