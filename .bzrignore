@@ -1,0 +1,6 @@
+*.cscope_file_list
+*.depend
+*.layout
+./.objs
+./.objs_release
+./tmp
