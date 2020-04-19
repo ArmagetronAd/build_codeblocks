@@ -7,16 +7,20 @@
 
 set -x
 
-CODEBLOCKS="C:\Program Files\CodeBlocks\codeblocks.exe"
+if test -r ~/.wine/drive_c/Program\ Files\ \(x86\)/CodeBlocks/codeblocks.exe; then
+    CODEBLOCKS="C:\Program Files (x86)\CodeBlocks\codeblocks.exe"
+else
+    CODEBLOCKS="C:\Program Files\CodeBlocks\codeblocks.exe"
+fi
 
 # copy files
 echo -e "makedist.bat\nexit\nexit\n" | wine cmd
 
-for p in Dedicated.cbp Armagetron.cbp; do 
-    wine "${CODEBLOCKS}" /ns /nd $p --build --target="Win32 Release" &
-done
+#for p in Dedicated.cbp Armagetron.cbp; do 
+#    wine "${CODEBLOCKS}" /ns /nd $p --build --target="Win32 Release" &
+#done
 
-wait
+#wait
 
 # batch build sans master
 grep -v Master.cbp < Armagetron.workspace > ArmagetronAdNoMaster.workspace
