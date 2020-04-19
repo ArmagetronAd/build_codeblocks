@@ -36,6 +36,10 @@ while test $timeout -gt 0; do
     fi
 done
 wait
+
+# those are unwanted/useless
+rm -f ../dist/*.a ../dist/SDL ../dist/SDL_image ../dist/SDL_mixer
+
 exit $RET
 
 
