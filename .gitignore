@@ -1,0 +1,9 @@
+*.cscope_file_list
+*.depend
+*.layout
+*.a
+.objs
+.objs_release
+tmp
+var
+resource
