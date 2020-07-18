@@ -273,6 +273,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../armagetronad/src/win32_ded/dirent.h" />
+		<Unit filename="app.manifest" />
 		<Unit filename="armagetron.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>

@@ -296,6 +296,7 @@
 		<Unit filename="../winlibs/SDL/src/main/win32/SDL_win32_main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="app.manifest" />
 		<Unit filename="armagetron.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>
